@@ -1,9 +1,9 @@
-# KCTesting
+# KCUIKit
 
-[![CI Status](http://img.shields.io/travis/Kenneth Chu/KCTesting.svg?style=flat)](https://travis-ci.org/Kenneth Chu/KCTesting)
-[![Version](https://img.shields.io/cocoapods/v/KCTesting.svg?style=flat)](http://cocoapods.org/pods/KCTesting)
-[![License](https://img.shields.io/cocoapods/l/KCTesting.svg?style=flat)](http://cocoapods.org/pods/KCTesting)
-[![Platform](https://img.shields.io/cocoapods/p/KCTesting.svg?style=flat)](http://cocoapods.org/pods/KCTesting)
+[![CI Status](http://img.shields.io/travis/MingChu/KCUIKit.svg?style=flat)](https://travis-ci.org/MingChu/KCUIKit)
+[![Version](https://img.shields.io/cocoapods/v/KCUIKit.svg?style=flat)](http://cocoapods.org/pods/KCUIKit)
+[![License](https://img.shields.io/cocoapods/l/KCUIKit.svg?style=flat)](http://cocoapods.org/pods/KCUIKit)
+[![Platform](https://img.shields.io/cocoapods/p/KCUIKit.svg?style=flat)](http://cocoapods.org/pods/KCUIKit)
 
 ## Example
 
@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-KCTesting is available through [CocoaPods](http://cocoapods.org). To install
+KCUIKit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -22,8 +22,8 @@ pod 'KCUIKit', :git => 'git@github.com:ming-chu/KCUIKit.git'
 
 ## Author
 
-Kenneth Chu, kennth.chu@gmail.com
+Ming Chu, ming.chu@vegantell.com
 
 ## License
 
-KCTesting is available under the MIT license. See the LICENSE file for more info.
+KCUIKitt is available under the MIT license. See the LICENSE file for more info.
