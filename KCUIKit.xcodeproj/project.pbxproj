@@ -10,6 +10,7 @@
 		0A96F0D32069500600CE1553 /* KCUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A96F0C92069500600CE1553 /* KCUIKit.framework */; };
 		0A96F0D82069500600CE1553 /* KCUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96F0D72069500600CE1553 /* KCUIKitTests.swift */; };
 		0A96F0DA2069500600CE1553 /* KCUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A96F0CC2069500600CE1553 /* KCUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A96F0E42069504700CE1553 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A96F0E32069504700CE1553 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		0A96F0D22069500600CE1553 /* KCUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A96F0D72069500600CE1553 /* KCUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCUIKitTests.swift; sourceTree = "<group>"; };
 		0A96F0D92069500600CE1553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A96F0E32069504700CE1553 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				0A96F0CC2069500600CE1553 /* KCUIKit.h */,
 				0A96F0CD2069500600CE1553 /* Info.plist */,
+				0A96F0E32069504700CE1553 /* CircleButton.swift */,
 			);
 			path = KCUIKit;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					0A96F0C82069500600CE1553 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					0A96F0D12069500600CE1553 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A96F0E42069504700CE1553 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +339,7 @@
 		0A96F0DE2069500600CE1553 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vegantell.KCUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +362,7 @@
 		0A96F0DF2069500600CE1553 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +384,7 @@
 		0A96F0E12069500600CE1553 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5J45E23XAS;
 				INFOPLIST_FILE = KCUIKitTests/Info.plist;
@@ -390,6 +399,7 @@
 		0A96F0E22069500600CE1553 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5J45E23XAS;
 				INFOPLIST_FILE = KCUIKitTests/Info.plist;
