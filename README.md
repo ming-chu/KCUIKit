@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Swift 4
+
 ## Installation
 
 KCUIKit is available through [CocoaPods](http://cocoapods.org). To install
