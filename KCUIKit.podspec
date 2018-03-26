@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   A custom UIKit for common use, e.g Simple custom buttons or views 
 		   DESC
-  s.homepage     = "http://EXAMPLE/KCUIKit"
+  s.homepage     = "https://vegantell.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'KCUIKit/**/*'
+  s.source_files  = 'KCUIKit/Source/*.{h,m,swift}'
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

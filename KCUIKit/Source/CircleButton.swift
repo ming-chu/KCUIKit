@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 public class CircleButton: UIButton {
 
     /*
