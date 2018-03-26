@@ -17,7 +17,7 @@ KCTesting is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KCTesting'
+pod 'KCUIKit', :path => 'git@github.com:ming-chu/KCUIKit.git'
 ```
 
 ## Author
