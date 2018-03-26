@@ -79,7 +79,7 @@
 		0A96F0CB2069500600CE1553 /* KCUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				0A96F0E72069571A00CE1553 /* Source */,
+				0A96F0E72069571A00CE1553 /* Classes */,
 				0A96F0CC2069500600CE1553 /* KCUIKit.h */,
 				0A96F0CD2069500600CE1553 /* Info.plist */,
 			);
@@ -95,12 +95,12 @@
 			path = KCUIKitTests;
 			sourceTree = "<group>";
 		};
-		0A96F0E72069571A00CE1553 /* Source */ = {
+		0A96F0E72069571A00CE1553 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				0A96F0E32069504700CE1553 /* CircleButton.swift */,
 			);
-			path = Source;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
